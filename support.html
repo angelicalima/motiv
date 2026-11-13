@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Suporte — Motiv</title>
+<style>
+  :root{
+    --bg:#0b0c10; --card:#15171c; --text:#eef0f3; --muted:#a3a9b3; --accent:#5ee6a0; --border:#242730;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#fafafa; --card:#ffffff; --text:#14161a; --muted:#5a6270; --accent:#0f9a62; --border:#e6e8ec; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.6;
+  }
+  .wrap{max-width:760px; margin:0 auto; padding:48px 20px 80px;}
+  header{display:flex; align-items:center; gap:12px; margin-bottom:8px;}
+  .logo{width:36px; height:36px; border-radius:10px; background:linear-gradient(135deg,var(--accent),#2f8f6a); display:flex; align-items:center; justify-content:center; font-weight:700; color:#06130c; flex:none;}
+  h1{font-size:1.5rem; margin:28px 0 8px;}
+  h2{font-size:1.1rem; margin:22px 0 8px; color:var(--text);}
+  p,li{color:var(--muted); font-size:0.98rem;}
+  .card{background:var(--card); border:1px solid var(--border); border-radius:14px; padding:20px 22px; margin:20px 0;}
+  .contact{background:var(--card); border:1px solid var(--border); border-radius:14px; padding:22px; margin:24px 0; display:flex; align-items:center; gap:16px;}
+  .contact a{font-size:1.05rem; font-weight:600;}
+  a{color:var(--accent); text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  footer{margin-top:48px; padding-top:20px; border-top:1px solid var(--border); font-size:0.85rem; color:var(--muted);}
+  details{background:var(--card); border:1px solid var(--border); border-radius:12px; padding:14px 18px; margin:10px 0;}
+  summary{cursor:pointer; font-weight:600; color:var(--text);}
+  details p{margin-top:10px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">M</div>
+    <div>
+      <strong>Motiv</strong>
+      <div style="color:var(--muted); font-size:0.85rem;">Central de Suporte</div>
+    </div>
+  </header>
+
+  <h1>Como podemos ajudar?</h1>
+  <p>O Motiv é desenvolvido de forma independente por Angelica Lima. Se você tiver dúvidas, encontrar um problema ou quiser enviar uma sugestão, fale diretamente comigo pelo e-mail abaixo — leio e respondo pessoalmente.</p>
+
+  <div class="contact">
+    ✉️ <a href="mailto:lima.angelica@outlook.com">lima.angelica@outlook.com</a>
+  </div>
+
+  <h2>Perguntas frequentes</h2>
+
+  <details>
+    <summary>O Motiv bloqueia outros apps automaticamente?</summary>
+    <p>Sim. Você define suas próprias regras (horários, apps e metas diárias) e o Motiv usa as ferramentas oficiais da Apple (Family Controls / Screen Time) para aplicar o bloqueio de acordo com o que você configurou.</p>
+  </details>
+
+  <details>
+    <summary>Pausar o app quebra minha sequência (streak)?</summary>
+    <p>Não necessariamente. Pausar por si só não quebra a sua sequência — o que quebra é não bater a meta do dia. Durante a pausa, nenhum app fica bloqueado, mas se você ainda bater sua meta diária, a sequência continua.</p>
+  </details>
+
+  <details>
+    <summary>O Motiv acessa meus dados de saúde?</summary>
+    <p>Somente se você autorizar explicitamente pelo Apple Health, e apenas para calcular seu progresso diário. Esses dados nunca saem do seu dispositivo. Veja mais detalhes na <a href="privacy.html">Política de Privacidade</a>.</p>
+  </details>
+
+  <details>
+    <summary>Como cancelo minha assinatura?</summary>
+    <p>As assinaturas do Motiv são gerenciadas pela Apple. Para cancelar, acesse Ajustes do iPhone → seu nome → Assinaturas, selecione o Motiv e cancele por lá.</p>
+  </details>
+
+  <details>
+    <summary>Encontrei um bug ou tenho uma sugestão</summary>
+    <p>Mande um e-mail para <a href="mailto:lima.angelica@outlook.com">lima.angelica@outlook.com</a> descrevendo o que aconteceu (e, se possível, um print da tela). Toda sugestão é lida e considerada para as próximas atualizações.</p>
+  </details>
+
+  <footer>
+    © 2026 Angelica Lima — Motiv. Todos os direitos reservados.<br>
+    <a href="index.html">Voltar ao início</a> · <a href="privacy.html">Política de Privacidade</a>
+  </footer>
+</div>
+</body>
+</html>
